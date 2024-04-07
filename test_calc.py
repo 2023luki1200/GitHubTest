@@ -1,40 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr  7 17:33:31 2024
+Created on Sun Apr  7 18:34:29 2024
 
 @author: lukas
 """
 
-from calculator import add 
-from calculator import sub
-from calculator import div
-from calculator import mult
-from calculator import mod
+from calc import call_func
 
-def test_add():
+def test_call_func():
     
-    assert add(1,1)==2
-    assert add(-3,5)==2
-    assert add(-1,-4)==-5
-    
-
-def test_sub():
-    assert sub(1,1)==0
-    assert sub(-3,5)==-8
-    assert sub(-1,-4)==3
-    
-def test_mult():
-    assert mult(1,1)==1
-    assert mult(-3,5)==-15
-    assert mult(-1,-4)==4
-    
-def test_div():
-    assert div(1,1)==1
-    assert div(-60,4)==-15
-    assert div(-4,-1)==4
-    assert div(1,2)==0.5
-    
-def test_mod():
-    assert mod(1,1)==0
-    assert mod(6,5)==1
-    assert mod(10,4)==2
+    assert call_func('a',1,1)==2
+    assert call_func('s',-3,5)==-8
+    assert call_func('m',1,2)==2
+    assert call_func('d',4,2)==2
+    assert call_func('j', 1, 1)=="Error"
