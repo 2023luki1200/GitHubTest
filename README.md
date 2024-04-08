@@ -1,5 +1,8 @@
 # GitHubTest
 This is a repository for testing GitHub, in the lecture Open Source Engergy System Modeling
+from 
+Lukas Kiener
+01027408
 
 I made a code for a little calculator, wich can make the four basic types of calculation.
 
