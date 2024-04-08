@@ -9,7 +9,6 @@ from calculator import add
 from calculator import sub
 from calculator import div
 from calculator import mult
-
 # this function, compare the input and
 # will call the correct function from the calculator code
 
