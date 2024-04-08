@@ -13,8 +13,6 @@ print("Hello to the Calculator")
 
 
 
-print("Test")
-
 
 def newinput(): ## Function will print a little instruction and then get the input for the operator and the two numbers.
     print("For addition 'a'")
