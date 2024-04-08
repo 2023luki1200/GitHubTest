@@ -5,7 +5,6 @@ Created on Sun Apr  7 17:33:31 2024
 @author: lukas
 """
 
-
 from calculator import add
 from calculator import sub
 from calculator import div
