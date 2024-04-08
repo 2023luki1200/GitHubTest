@@ -7,7 +7,7 @@ Created on Sun Apr  7 18:34:29 2024
 
 from calc import call_func
 
-def test_call_func():
+def test_call_func(): ##Test for the call_func, with all different function and error return
     
     assert call_func('a',1,1)==2
     assert call_func('s',-3,5)==-8

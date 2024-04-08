@@ -7,6 +7,8 @@ Created on Sun Apr  7 17:50:33 2024
 
 from calc import call_func
 
+## This code is the interface for the input
+
 print("Hello to the Calculator")
 
 
@@ -14,7 +16,7 @@ print("Hello to the Calculator")
 print("Test")
 
 
-def newinput():
+def newinput(): ## Function will print a little instruction and then get the input for the operator and the two numbers.
     print("For addition 'a'")
     print("For subtract 's'")
     print("For multiply 'm'")
@@ -26,6 +28,6 @@ def newinput():
     y=int(y)
     
     print(call_func(k,x,y))
-    newinput()
+    newinput()          # repeat the function after the last input or in case of an error
 
-newinput()
+newinput()              ## starts the calculator
