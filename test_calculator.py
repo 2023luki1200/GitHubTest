@@ -13,7 +13,7 @@ from calculator import mult
 
 
 def test_add():
-    assert add(1, 1) == 2
+    assert add(2, 1) == 3
     assert add(-3, 5) == 2
     assert add(-1, -4) == -5
 
