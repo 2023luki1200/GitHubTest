@@ -26,5 +26,5 @@ def call_func(k, x, y):
                 if (k == 'd'):
                     r = div(x, y)
                 else:
-                    r = ("Error")
+                    r = 'Error'
     return r
