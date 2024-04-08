@@ -10,10 +10,6 @@ from calc import call_func
 ## This code is the interface for the input
 
 print("Hello to the Calculator")
-
-
-
-
 def newinput(): ## Function will print a little instruction and then get the input for the operator and the two numbers.
     print("For addition 'a'")
     print("For subtract 's'")
