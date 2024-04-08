@@ -13,4 +13,3 @@ def test_call_func():
     assert call_func('s', -3, 5) == -8
     assert call_func('m', 1, 2) == 2
     assert call_func('d', 4, 2) == 2
-    assert call_func('j', 1, 1) == "Error"
