@@ -5,6 +5,7 @@ Created on Sun Apr  7 18:34:29 2024
 @author: lukas
 """
 
+
 from calc import call_func
 
 

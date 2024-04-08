@@ -18,7 +18,6 @@ from calculator import mult
 def call_func(k, x, y):
     if (k == 'a'):
         r = add(x, y)
-
     else:
         if (k == 's'):
             r = sub(x, y)
