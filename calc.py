@@ -9,22 +9,24 @@ from calculator import add
 from calculator import sub
 from calculator import div
 from calculator import mult
+
+
 # This function, compare the input and
 # Will call the correct function from the calculator code
 
 
 def call_func(k, x, y):
-    if (k == 'a'):
+    if k == "a":
         r = add(x, y)
     else:
-        if (k == 's'):
+        if k == "s":
             r = sub(x, y)
         else:
-            if (k == 'm'):
+            if k == "m":
                 r = mult(x, y)
             else:
-                if (k == 'd'):
+                if k == "d":
                     r = div(x, y)
                 else:
-                    r = 'Error'
+                    r = "Error"
     return r
