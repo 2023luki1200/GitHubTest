@@ -14,17 +14,17 @@ from calculator import mult
 
 
 def call_func(k, x, y):
-    if (k == 'a'):
+    if (k == "a"):
         r = add(x, y)
     else:
-        if (k == 's'):
+        if (k == "s"):
             r = sub(x, y)
         else:
-            if (k == 'm'):
+            if (k == "m"):
                 r = mult(x, y)
             else:
-                if (k == 'd'):
+                if (k == "d"):
                     r = div(x, y)
                 else:
-                    r = 'Error'
+                    r = "Error"
     return r
